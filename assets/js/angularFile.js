@@ -11,6 +11,12 @@ angular.module('myWebpage', [])
             templateUrl: 'assets/html/aboutMe.html'
         };
     })
+    .directive('contactMe', function(){
+        return{
+            restrict: 'E',
+            templateUrl: 'assets/html/contactMe.html'
+        };
+    })
     .directive('profilePic', function(){
         return{
             restrict: 'E',
@@ -71,6 +77,13 @@ angular.module('myWebpage', [])
             templateUrl: 'assets/html/right_conferences.html'
         };
     })
+    .directive('hireMe', function(){
+        return{
+            restrict: 'E',
+            templateUrl: 'assets/html/right_hireMe.html'
+        };
+    })
+
     .directive('credits', function(){
         return{
             restrict: 'E',
@@ -143,6 +156,12 @@ angular.module('myWebpage', [])
         return{
             restrict: 'E',
             templateUrl: 'assets/html/Activities/activities3.html'
+        };
+    })
+    .directive('activities4', function(){
+        return{
+            restrict: 'E',
+            templateUrl: 'assets/html/Activities/activities4.html'
         };
     })
 
