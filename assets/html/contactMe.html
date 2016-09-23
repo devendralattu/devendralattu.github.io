@@ -1,0 +1,22 @@
+<section class="about section">
+    <div class="section-inner">
+        <h2 class="heading">Contact Me</h2>
+        <div class="content">
+            <form action="https://formspree.io/dev12@umbc.edu" method="post">
+                <input name="name" class="form-control" placeholder="Name" ng-model="formData.name" required="" type="text">
+                <br>
+                <input name="_replyto" class="form-control" placeholder="email" ng-model="formData.email" required="" type="email">
+                <br>
+                <input name="_subject" class="form-control" placeholder="Subject" ng-model="formData.subject" required="" type="text">
+                <br>
+                <textarea name="message" id="overflowStyle" class="form-control" placeholder="Message.." ng-model="formData.message" rows="5" style="resize: none;" required=""></textarea>
+                <br>
+                <button class="btn btn-success" type="submit" value="send" ng-click="formSubmit()">
+                    Hire me &nbsp;
+                    <!--<i class="fa fa-cog fa-spin fa-lg fa-fw"></i>-->
+                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
