@@ -1,4 +1,4 @@
-https://devendralattu.github.io/
+#https://devendralattu.github.io/
 
 Using my web-development knowledge and experience, I thought of building my portfolio website.
 I wanted to explore more of <a href="http://getbootstrap.com/" target="_blank">bootstrap</a>.
@@ -6,11 +6,11 @@ Therefore, I took a bootstrap template and started playing around with it.
 
 Releases:
 <ol>
-<li>October 2016
+<li>October 2016 <code>[upcoming]</code>
   <ul>
       <li>Make customized print previews for recruiters</li>
       <li>Updating other info</li>
-      <li>Building a <a href="http://www.dictionary.com/browse/catalyst" target="_blank">catalyst</a> to attracting recruiters attention</li>
+      <li>Building a <a href="http://www.dictionary.com/browse/catalyst" target="_blank">catalyst</a> to attract recruiters attention</li>
     </ul>
  </li>
  <li>September 2016
