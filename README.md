@@ -21,6 +21,7 @@ Releases:
       <li>Utilizing the power of Angulars custom tags</li>
       <li>Integrated <a href="https://formspree.io/" target="_blank">email form</a> [Recruiters can reach me easily. Yay!]</li>
       <li>Redefined goals</li>
+      <li>Struggling to level email form with hire me image</li>
       <li>Added some secret creative substances for attracting job interviews</li>
     </ul>
  </li>
