@@ -34,7 +34,7 @@
     </head> 
 
     <body>
-        <!-- ******HEADER****** --> 
+        <!-- ******HEADER****** -->
         <header class="header">
             <div class="container">
 
@@ -50,79 +50,73 @@
             </div><!--//container-->
         </header><!--//header-->
 
-        <div class="container sections-wrapper">
-            <div class="row">
-                <div class="primary col-md-8 col-sm-12 col-xs-12">
-                    
-                    <!-- body: section1: about me -->
+        <div class="hidden-sm hidden-xs">
+            <div class="container sections-wrapper">
+                <div class="row">
+                    <div class="primary col-md-8">
+
+                        <about-me></about-me>
+                        <work-experience></work-experience>
+                        <latest-projects></latest-projects>
+
+                        <!--<github-activity>-->
+                        <section class="github section">
+                            <div class="section-inner">
+
+                                <h2 class="heading">My GitHub</h2>
+                                <p>My latest GitHub activities</p>
+                                <!--//Usage: http://caseyscarborough.com/projects/github-activity/ -->
+                                <div id="ghfeed" class="ghfeed">
+                                </div><!--//ghfeed-->
+                            </div>
+                        </section>
+                        <!--</github-activity>-->
+                        <contact-me></contact-me>
+                    </div>
+
+                    <div class="secondary col-md-4">
+
+                        <education></education>
+                        <skills-list></skills-list>
+                        <activities></activities>
+                        <languages></languages>
+                        <favourite-coding-music></favourite-coding-music>
+                        <other-projects></other-projects>
+                        <achievements></achievements>
+                        <testimonials></testimonials>
+                        <basic-info></basic-info>
+                        <hire-me></hire-me>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hidden-lg hidden-md">
+            <div class="container sections-wrapper">
+                <div class="row">
+
                     <about-me></about-me>
-
-                    <work-experience></work-experience>
-                    
-                    <latest-projects></latest-projects>                    
-                    
-                    <!--<github-activity>-->
-                    <section class="github section">
-                        <div class="section-inner">
-
-                            <h2 class="heading">My GitHub</h2>
-                            <p>My latest GitHub activities</p>        
-                            <!--//Usage: http://caseyscarborough.com/projects/github-activity/ -->                       
-                            <div id="ghfeed" class="ghfeed">
-                            </div><!--//ghfeed-->
-                        </div>
-                    </section>
-                    <!--</github-activity>-->
-                    
-                    <contact-me></contact-me>
-                    
-                </div><!--//primary-->
-                
-                <div class="secondary col-md-4 col-sm-12 col-xs-12">
-                    
-                    <basic-info></basic-info>
-                    
-                    <skills-list></skills-list>
-
-                    <testimonials></testimonials>
-
                     <education></education>
-
-                    <languages></languages>
-                        
-                    <favourite-coding-music></favourite-coding-music>
-                    
+                    <skills-list></skills-list>
+                    <work-experience></work-experience>
+                    <latest-projects></latest-projects>
                     <other-projects></other-projects>
-                    
                     <activities></activities>
                     <achievements></achievements>
-                    
+                    <languages></languages>
+                    <favourite-coding-music></favourite-coding-music>
+                    <testimonials></testimonials>
+                    <basic-info></basic-info>
+                    <contact-me></contact-me>
                     <hire-me></hire-me>
-                    <!-- Blogs -->
-                    <!--<aside class="blog aside section">
-                        <div class="section-inner">
-                            <h2 class="heading">Latest Blog Posts</h2>
-                            <p>You can use Sascha Depold's 
-                                <a href="https://github.com/sdepold/jquery-rss" target="_blank">jQuery RSS plugin</a> 
-                                to pull in your blog post feeds.
-                            </p>
-                            <div id="rss-feeds" class="content">
 
-                            </div>
-                        </div>
-                    </aside>-->                    
-                    <!-- /Blogs -->
-                    
-                    <!--<conferences></conferences>-->
-                    
-                    <!--<credits></credits>-->
-                    
-
-                </div><!--//secondary-->    
-            </div><!--//row-->
-        </div><!--//masonry-->
-
-        <!-- ******FOOTER****** --> 
+                </div>
+            </div>
+        </div>
+        <!-- Blogs -->
+        <!--<conferences></conferences>-->
+        <!--<credits></credits>-->
+        <!-- ******FOOTER****** -->
         <footer-section></footer-section>
 
         <!-- Javascript -->          
