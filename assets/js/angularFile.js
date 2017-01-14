@@ -120,6 +120,12 @@ angular.module('myWebpage', [])
             templateUrl: 'assets/html/latestProj/latest-3.html'
         };
     })
+    .directive('latest4', function(){
+        return{
+            restrict: 'E',
+            templateUrl: 'assets/html/latestProj/latest-4.html'
+        };
+    })
 
     .directive('otherProjects', function(){
         return{
