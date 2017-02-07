@@ -170,6 +170,12 @@ angular.module('myWebpage', [])
             templateUrl: 'assets/html/Activities/activities4.html'
         };
     })
+    .directive('activities5', function(){
+        return{
+            restrict: 'E',
+            templateUrl: 'assets/html/Activities/activities5.html'
+        };
+    })
 
     .directive('achievements', function(){
         return{
