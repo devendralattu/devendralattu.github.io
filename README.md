@@ -6,7 +6,33 @@ Therefore, I took a bootstrap template and started playing around with it.
 
 Releases:
 <ol>
-<li>October 2016 <code>[upcoming]</code>
+ <li>April 2017 <code>[upcoming]</code>
+    <ul>
+      <li>Create a section of progress on Thesis</li>
+    </ul>
+ </li>
+ <li>March 2017
+  <ul>
+      <li>Used better vocabulary while describing my work</li>
+      <li>Added counter to track number of hits</li>
+      <li>Added full LinkedIn recommendation given by Mr. Yogesh Ugale</li>
+      <li>Changed hyperlinks to projects</li>
+      <li>Removed address section [as I am willing to relocate] please don't ignore my resume thinking that I am not local candidate ;(
+    </ul>
+ </li>
+ <li>Feb 2017
+  <ul>
+      <li>Updated "About us" description with new thesis title</li>
+    </ul>
+ </li>
+ <li>Jan 2017
+  <ul>
+      <li>Added Spring 2017 semester projects</li>
+      <li>Updated latest project section</li>
+      <li>Renewed devendralattu.com domain and redirected the url hits to devendralattu.github.io</li>
+    </ul>
+ </li> 
+ <li>October 2016
   <ul>
       <li>Make customized print previews for recruiters</li>
       <li>Updating other info</li>
