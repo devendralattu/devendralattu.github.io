@@ -83,6 +83,12 @@ angular.module('myWebpage', [])
             templateUrl: 'assets/html/right_hireMe.html'
         };
     })
+    .directive('counter', function(){
+        return{
+            restrict: 'E',
+            templateUrl: 'assets/html/right_counter.html'
+        };
+    })
 
     .directive('credits', function(){
         return{
