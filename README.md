@@ -6,7 +6,12 @@ Therefore, I took a bootstrap template and started playing around with it.
 
 Releases:
 <ol>
-<li>March 2017 <code>[upcoming]</code>
+ <li>April 2017 <code>[upcoming]</code>
+    <ul>
+      <li>Create a section of progress on Thesis</li>
+    </ul>
+ </li>
+ <li>March 2017
   <ul>
       <li>Used better vocabulary while describing my work</li>
       <li>Added counter to track number of hits</li>
