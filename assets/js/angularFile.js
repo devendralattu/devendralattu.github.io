@@ -86,7 +86,7 @@ angular.module('myWebpage', [])
     .directive('counter', function(){
         return{
             restrict: 'E',
-            templateUrl: 'assets/html/right_counter.html'
+            templateUrl: 'assets/html/left_counter.html'
         };
     })
 
