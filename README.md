@@ -6,9 +6,16 @@ Therefore, I took a bootstrap template and started playing around with it.
 
 Releases:
 <ol>
- <li>April 2017 <code>[upcoming]</code>
+ <li>May 2017 <code>[upcoming]</code>
     <ul>
       <li>Create a section of progress on Thesis</li>
+    </ul>
+ </li>
+ <li>April 2017
+    <ul>
+      <li>Added StackOverflow userpage url</li>
+      <li>Added StackOverflow image showing top 0.24% for April 1<sup>st</sup> week</li><a
+      <li>Reset counter</li>
     </ul>
  </li>
  <li>March 2017
