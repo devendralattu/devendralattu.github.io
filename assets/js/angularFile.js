@@ -71,6 +71,12 @@ angular.module('myWebpage', [])
             templateUrl: 'assets/html/right_favouriteCodingMusic.html'
         };
     })
+    .directive('stackoverflow', function(){
+        return{
+            restrict: 'E',
+            templateUrl: 'assets/html/right_stackoverflow.html'
+        };
+    })
     .directive('conferences', function(){
         return{
             restrict: 'E',
