@@ -71,12 +71,20 @@ angular.module('myWebpage', [])
             templateUrl: 'assets/html/right_favouriteCodingMusic.html'
         };
     })
-    .directive('stackoverflow', function(){
+
+    .directive('stackoverflowScore', function(){
         return{
             restrict: 'E',
-            templateUrl: 'assets/html/right_stackoverflow.html'
+            templateUrl: 'assets/html/right_stackoverflow_1.html'
         };
     })
+    .directive('stackoverflowBadge', function(){
+        return{
+            restrict: 'E',
+            templateUrl: 'assets/html/right_stackoverflow_2.html'
+        };
+    })
+
     .directive('conferences', function(){
         return{
             restrict: 'E',
